@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartWindow</class>
+ <widget class="QMainWindow" name="StartWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>625</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>625</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>625</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ANIMEX - Welcome</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Web Development Related/Website Materials/Medias/Website CDNS/animex/icons/tab-icons/favicon.ico</normaloff>../../Web Development Related/Website Materials/Medias/Website CDNS/animex/icons/tab-icons/favicon.ico</iconset>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::RightToLeft</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/newPrefix/imgs/startWindowBG.png);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="startWindow_MainHeadingLabel">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>130</y>
+         <width>981</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>ARS Maquette Pro Black</family>
+         <pointsize>72</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+	color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>ANIMEX</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="startWindow_MainTextLabel">
+       <property name="geometry">
+        <rect>
+         <x>-4</x>
+         <y>250</y>
+         <width>991</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Public Sans Medium</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+	color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>Anime/Manga Store Program</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="startWindow_ExitBtn">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>360</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Public Sans Medium</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: rgb(20, 134, 255);
+color: white;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>EXIT PROGRAM</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="startWindow_CreateLoginBtn">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>360</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Public Sans Medium</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: rgb(20, 134, 255);
+color: white;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>CREATE/LOGIN</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="startWindow_TechUsedLabel">
+       <property name="geometry">
+        <rect>
+         <x>-4</x>
+         <y>530</y>
+         <width>991</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Public Sans Medium</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Created w/ QtDesigner and Python</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="qc/startWindowBG.qrc"/>
+ </resources>
+ <connections/>
+</ui>

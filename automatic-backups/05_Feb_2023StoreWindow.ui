@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StoreWindow</class>
+ <widget class="QMainWindow" name="StoreWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1063</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1063</width>
+    <height>780</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1063</width>
+    <height>780</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ANIMEX - Store</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>200</number>
+      </property>
+      <property name="topMargin">
+       <number>25</number>
+      </property>
+      <property name="rightMargin">
+       <number>200</number>
+      </property>
+      <property name="bottomMargin">
+       <number>25</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="storeWindow_AddItemsToCartBtn">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>185</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Public Sans Medium</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(34, 48, 255);
+color: white;
+border: none;</string>
+        </property>
+        <property name="text">
+         <string>ADD ITEMS TO CART</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="storeWindow_CartBtn">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>12</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Public Sans Medium</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(34, 48, 255);
+color: white;
+border: none;</string>
+        </property>
+        <property name="text">
+         <string>CART</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="storeWindow_LogoutBtn">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Public Sans Medium</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(34, 48, 255);
+color: white;
+border: none;</string>
+        </property>
+        <property name="text">
+         <string>LOGOUT</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="cursor" stdset="0">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QScrollArea {
+	border: 1px solid rgb(230, 230, 230);
+}
+
+QScrollBar:vertical {
+	border: none;
+	background-color: white;
+	border-radius: 5px;
+	width: 15px;
+	margin: 15px 0 0;
+}
+
+
+/* Handle */
+QScrollBar::handle:vertical {
+	background-color: rgb(34, 48, 255);
+}
+
+/* Top Btn */
+QScrollBar::sub-line:vertical {
+	background-color:rgb(34, 48, 255);
+}</string>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1028</width>
+         <height>1218</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QFrame" name="storeWindow_ItemsFrame">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>1200</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1063</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
